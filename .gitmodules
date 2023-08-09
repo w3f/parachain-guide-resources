@@ -1,0 +1,7 @@
+[submodule "polkadot"]
+	path = polkadot
+	url = https://github.com/paritytech/polkadot.git
+	branch = release-v1.0.0
+[submodule "substrate-parachain-template"]
+	path = substrate-parachain-template
+	url = https://github.com/substrate-developer-hub/substrate-parachain-template.git
