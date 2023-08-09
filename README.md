@@ -16,6 +16,9 @@ cd substrate-parachain-template/
 git checkout polkadot-v1.0.0
 git switch -c parachain-v1.0.0
 
+# Build the chain
+cargo build --release
+
 # Build initial chain spec 
 ./target/release/parachain-template-node build-spec > ../parachain/parachain_chain_spec.json  
 
@@ -31,12 +34,14 @@ git switch -c parachain-v1.0.0
 
 ### Chain Specification
 
-### Runtime
+The chain specification is based off of the default template.  If you wish to modify this, consider recompiling the node and regenerating as per above.
 
-### Genesis
+### Runtime & Genesis
+
+Both are based off of the default template with no added modifications.
 
 ## Relay Chain
 
-### Chain Specification
+The relay chain configuration is a `rococo_local` testnet.  The relay chain does not need much - but you msut have the `polkadot` binary installed and in your path in order to successfully run the commands.
 
 
