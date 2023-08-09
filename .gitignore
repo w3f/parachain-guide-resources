@@ -1,1 +1,3 @@
 /.vscode
+/.substrate-parachain-template/target
+/.polkadot/target
