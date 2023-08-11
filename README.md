@@ -42,6 +42,6 @@ Both are based off of the default template with no added modifications.
 
 ## Relay Chain
 
-The relay chain configuration is a `rococo_local` testnet.  The relay chain does not need much - but you msut have the `polkadot` binary installed and in your path in order to successfully run the commands.
+The relay chain configuration is a `rococo_local` testnet.  The relay chain does not need much - but you must have the `polkadot` binary installed and in your path in order to successfully run the commands.
 
 
